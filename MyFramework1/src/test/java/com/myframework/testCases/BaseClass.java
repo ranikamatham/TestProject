@@ -12,6 +12,7 @@ public class BaseClass {
 	public String baseURL = "https://phptravels.com/demo";
 	public String username = "ranimarpuri@gmail.com";
 	public String password = "Chinnu@123";
+	
 
 	public static WebDriver driver;
 
@@ -22,6 +23,7 @@ public class BaseClass {
 
 	@BeforeClass
 	public void setUP() {
+		
 		System.out.println("****************************************");
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//Drivers//chromedriver.exe");
 		System.out.println("after system" + System.getProperty("webdriver.chrome.driver"));

@@ -19,9 +19,11 @@ public class LoginPage {
 	@FindBy(xpath = "/html/body/header/div/div[2]/div/ul[2]/li/a\r\n" + "")
 	WebElement btnLogin;
 	
+	
 	@FindBy(xpath = "//*[@id=\"inputEmail\"]\r\n" + 
 			"")
 	WebElement txtUserName;
+	
 
 	@FindBy(xpath = "//*[@id=\"inputPassword\"]")
 	WebElement txtPassWord;
